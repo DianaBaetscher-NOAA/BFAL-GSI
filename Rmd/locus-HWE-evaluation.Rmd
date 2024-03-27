@@ -1,0 +1,632 @@
+---
+title: "02-locus-HWE-evaluation"
+author: "Diana Baetscher"
+date: "2023-03-30"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+Using the complete dataset to evaluate HWE across loci and populations in the baseline.
+
+
+
+Updates: use the NAs explicit genos file. 
+Don't filter loci based on missing data at this point. 
+Just look at reference pops for evaluating HWE.
+
+
+Evaluating the loci that we're using for self-assignment and bycatch assignment.
+These were originally derived from lcWGS data and the microhaplotype results suggest that the real variation present is potentially quite different.
+Initially, I should probably just focus on the baseline genotypes rather than including everything.
+
+
+To evaluate the markers, I need to subset the reference baseline genotypes for just the minimal amount of missing data.
+
+```{r load-libraries}
+library(tidyverse)
+library(adegenet)
+library(radiator)
+library(DescTools)
+library(dplyr)
+
+```
+
+
+```{r}
+# read in rds file with genotypes
+genos_long <- read_rds("../data/processed/called_genos_na_explicit.rds")
+
+# just select the reference samples based on metadata
+samplesheets <- read_rds("../data/processed/metadata_bycatch_and_reference_20230413.rds")
+
+reference_samples <- samplesheets %>%
+  filter(Sample_Plate %in% c("BFAL001", "BFAL002") &
+           !is.na(Location),
+         !`Loc-Abbr` %in% c("Oahu", "Kauai, Kilauea")) %>%
+  arrange(sampleID) %>%
+  select(sampleID, gtseq_run, id, Location, `Loc-Abbr`)
+
+# combine the genotypes with the reference
+ref_genos <- reference_samples %>%
+  left_join(., genos_long, by = c("gtseq_run", "id")) 
+
+```
+
+Deal explicitly with duplicate samples:
+
+## Some initial filters
+
+### Take highest read-depth call for multiply-genotyped DNA_IDs
+
+I'm not sure if there are any of these, but best to leave it in here...
+
+Now, here is a harder operation: if an individual is multiply-genotyped, take the
+genotype with the highest total read depth.  
+```{r take-just-one}
+# slow-ish function to get the total read depth column
+tdepth <- function(a, d) {
+  if(any(is.na(a))) {
+    return(NA)
+  }
+  if(a[1]==a[2]) {
+    return(d[1])
+  } else {
+    return(d[1] + d[2])
+  }
+  
+}
+# this takes the highest read-depth instance of each duplicately-genotyped individual.
+geno_one_each <- ref_genos %>%
+  group_by(sampleID, locus, gtseq_run) %>%
+  mutate(total_depth = tdepth(allele, depth)) %>%
+  ungroup() %>%
+  arrange(sampleID, locus, total_depth, gtseq_run, depth) %>%
+  group_by(sampleID, locus) %>%
+  mutate(rank = 1:n()) %>% # this ranks all alleles for a given individual by depth
+  ungroup() %>%
+  filter(rank <= 2) # this takes the top ranked alleles and should remove duplicates
+  
+
+# how many samples now?
+geno_one_each %>%
+  filter(!is.na(sampleID)) %>%
+  group_by(sampleID) %>% 
+  select(sampleID, gtseq_run, id) %>%
+  unique() %>%
+  tally() 
+
+```
+
+
+
+Take a look at missing data overall:
+```{r}
+geno_one_each %>%
+  ggplot(aes(x = reorder(locus, depth), y = reorder(sampleID, depth), fill = log10(depth))) +
+  geom_tile()
+
+```
+
+
+Deal with missing data:
+
+
+## Missing data in loci
+
+How many loci and how many alleles?
+```{r}
+# alleles
+geno_one_each %>%
+  filter(!is.na(allele)) %>%
+  select(locus, allele) %>%
+  unique()
+
+# loci
+geno_one_each %>%
+  filter(!is.na(allele)) %>%
+  select(locus, allele) %>%
+  unique() %>%
+  group_by(locus) %>%
+  tally() %>%
+  arrange(desc(n))
+
+```
+
+
+In the reference, 458 alleles across 189 loci with 1-6 alleles per locus.
+
+Some individuals are missing all their data, and some loci are missing all their data.
+Beginning with loci:
+
+```{r}
+# missing data across loci
+locs_to_toss <- geno_one_each %>%
+  group_by(locus) %>%
+  mutate(missingness = ifelse(is.na(allele), 1, 0)) %>%
+  summarise(sum(missingness)) %>% # 189 loci x2 = total
+  filter(`sum(missingness)`>151) %>% # more than 50% missing data (given 151 individuals)
+  select(locus) # drop those loci for now and see how the assignment goes
+
+# just the keepers
+genos_locs_filtered <- geno_one_each %>%
+  anti_join(., locs_to_toss)
+
+
+```
+
+
+Remove these 4 loci because of too much missing data in the reference samples.
+
+
+## Missing data in individuals
+
+Total number of loci = 185
+
+Total number of samples = 151
+
+```{r}
+inds_to_toss <- genos_locs_filtered %>%
+  group_by(sampleID) %>%
+  mutate(missingness = ifelse(is.na(allele), 1, 0)) %>%
+  summarise(sum(missingness)) %>%
+  arrange(desc(`sum(missingness)`)) %>%
+  #filter(`sum(missingness)` > 47) # remove samples with >25% missing data
+ filter(`sum(missingness)` > 19) # remove samples with >10% missing data
+
+# just the keepers
+genos_locs_ind_filtered <- genos_locs_filtered %>%
+  anti_join(., inds_to_toss)
+
+```
+23 samples removed with >10% missing data.
+
+
+
+Now look at missing data:
+```{r}
+genos_locs_ind_filtered %>%
+  ggplot(aes(x = reorder(locus, -depth), y = reorder(sampleID, -depth), fill = log10(depth))) +
+  geom_tile()
+
+```
+
+Much better. Now move forward from here.
+
+
+## Prep data for analysis
+
+
+```{r}
+# first make integers of the alleles
+alle_idxs <- genos_locs_ind_filtered %>% 
+  filter(!is.na(sampleID)) %>%
+  dplyr::select(sampleID, locus, gene_copy, allele) %>%
+  group_by(locus) %>%
+  mutate(alleidx = as.integer(factor(allele, levels = unique(allele)))) %>%
+  ungroup() %>%
+  arrange(sampleID, locus, alleidx) # rubias can handle NA's, so no need to change them to 0's
+
+# reformat
+reference <- alle_idxs %>%
+  inner_join(., reference_samples) %>%
+  select(-allele, -gtseq_run, -id) %>%
+  select(`Loc-Abbr`, sampleID, everything()) %>%
+  rename(collection = `Loc-Abbr`, indiv = sampleID)
+
+
+```
+
+
+I need to finagle the dataset into a genind object.
+
+```{r}
+# read in data
+reference_genos <- reference
+
+# number of missing alleles (max = 185*2)
+inds_to_toss_missing_data <- reference_genos %>%
+  group_by(indiv) %>%
+  filter(is.na(alleidx)) %>%
+  group_by(indiv, collection) %>%
+  tally() %>%
+  arrange(desc(n)) %>%
+  filter(n > 9)
+  
+# if I removed all the indivs with > 10 missing alleles, that's only 5 indivs.
+# what would the distribution of indivs per population be? 
+# still ok, I'm pretty sure.
+reference_genos %>%
+  anti_join(., inds_to_toss_missing_data) %>%
+  group_by(collection, indiv) %>%
+  tally() %>%
+  tally()
+
+```
+
+I feel fine about that. Let's see if that makes any of the HWE calculations easier because less missing data?
+
+```{r}
+# SKIP THIS FOR NOW.
+# ref_genos_low_missing_data <- reference_genos %>%
+#   anti_join(., inds_to_toss_missing_data)
+
+ref_genos_low_missing_data <- reference_genos
+
+```
+
+
+
+Make the df match the requirements for tidy_genomic_data
+```{r}
+long_df <- ref_genos_low_missing_data  %>%
+  select(-gene_copy) %>%
+  select(collection, everything()) %>%
+  rename(INDIVIDUALS = indiv, STRATA = collection, MARKERS = locus, GT = alleidx)
+
+```
+
+Genotypes should be coded with 3 integers for each alleles. 6 integers in total for the genotypes. e.g. 001002 or 111333 (for heterozygote individual). 6 integers WITH separator: e.g. 001/002 or 111/333 (for heterozygote individual). The separator can be any of these: "/", ":", "_", "-", ".", and will be removed.
+
+
+```{r}
+# create 3 digit integers from the genotypes
+long_df$GT3 <- Format(long_df$GT, ldigits = 3, digits = 0)
+
+# fix NAs
+long_df0s <- long_df %>%
+  mutate(GT3 = ifelse(is.na(GT3), "000", GT3)) # I don't love that this creates potential artifacts!
+```
+
+Now combine the GT3 column per indiv/marker:
+```{r}
+# make the genos characters and then try pasting them as strings
+long_df0s$GT3 <- as.character(long_df0s$GT3)
+
+long_df3digit <- long_df0s %>%
+  group_by(INDIVIDUALS, MARKERS) %>% 
+  arrange(GT3, .by_group = TRUE) %>% 
+  summarise(GENOTYPE = toString(GT3))
+  
+# paste strings together
+long_df3digit$GENOTYPE <- gsub(", ","",long_df3digit$GENOTYPE)
+
+
+# add back on species identity as strata
+df_for_conversion <- long_df0s %>% 
+  select(-GT, -GT3) %>%
+  left_join(., long_df3digit) %>%
+  unique() %>%
+  rename(GT = GENOTYPE) %>%
+  mutate(GT = ifelse(GT == "000000", NA, GT)) %>%
+  filter(!str_detect(STRATA, "Kauai"))
+  
+
+df_for_conversion$STRATA <- as.factor(df_for_conversion$STRATA)
+
+```
+
+Double check - how many samples per population?
+```{r}
+df_for_conversion %>%
+  select(INDIVIDUALS, STRATA) %>%
+  unique() %>%
+  group_by(STRATA) %>%
+  tally()
+
+```
+
+Let's remove Lehua and Kilauea at this point because of so few samples.
+
+```{r}
+convert_df_wo_2pops <- df_for_conversion 
+```
+
+
+
+```{r convert-df-to-genind}
+# use the radiator package for this conversion
+genind_df <- write_genind(convert_df_wo_2pops)
+
+```
+Basic population genetic evaluation of the markers, following, in part, this:
+https://bookdown.org/hhwagner1/LandGenCourse_book/WE_3.html
+
+
+
+```{r heterozygosities-pooled}
+sum_output <- summary(genind_df)
+
+names(sum_output)
+
+expected_hz <- rownames_to_column(as.data.frame(sum_output$Hexp), var = "locus") %>%
+  rename(Hexp = `sum_output$Hexp`)
+observed_hz <- rownames_to_column(as.data.frame(sum_output$Hobs), var = "locus") %>%
+  rename(Hobs = `sum_output$Hobs`)
+
+hz_df <- expected_hz %>%
+  left_join(., observed_hz)
+
+```
+
+Expected heterozygosity (here: Hexp) is the heterozygosity expected in a population under HWE, and observed heterozygosity (here: Hobs) is the observed number of heterozygotes at a locus divided by the total number of genotyped individuals. Here are the global values (pooled across all populations):
+
+FIS [= (HS - HI)/HS]
+HI based on observed heterozygosities in populations
+HS based on expected heterozygosities in populations
+```{r calculate-Fis}
+hz_df %>%
+  group_by(locus) %>%
+  mutate(Fis = (Hexp - Hobs)/ Hexp) %>%
+  ggplot(aes(x = locus, y = Fis))+
+  geom_point()
+
+```
+Ooof. There are some big outliers. Need to revisit the expectations given multiple pops and small pop sizes and/or re-run with the full dataset?
+
+
+```{r}
+# expected heterozygosity per population
+adegenet::Hs(genind2genpop(genind_df))
+```
+
+
+```{r}
+Hobs <- t(sapply(seppop(genind_df), function(ls) summary(ls)$Hobs))
+  Hexp <- t(sapply(seppop(genind_df), function(ls) summary(ls)$Hexp))
+  {cat("Expected heterozygosity (Hexp):", "\n")
+  round(Hexp, 2)
+  cat("\n", "Observed heterozygosity (Hobs):", "\n")
+  round(Hobs, 2)}
+
+  # make dataframes to compare  
+Hob_df <- rownames_to_column(as.data.frame(Hobs), var = "population") %>%
+  pivot_longer(cols = 2:187, names_to = "locus", values_to = "H_obs")
+
+Hexp_df <- rownames_to_column(as.data.frame(Hexp), var = "population") %>%
+  pivot_longer(cols = 2:187, names_to = "locus", values_to = "H_exp")
+  
+Hob_df %>%
+  left_join(., Hexp_df) %>%
+  ggplot(aes(x = H_exp, y = H_obs, color = population)) +
+  geom_point() +
+  geom_abline(slope = 1)
+
+```
+Per population is pretty messy... probably because of small sample sizes.
+
+```{r}
+Hob_df %>%
+  left_join(., Hexp_df) %>%
+  filter(population == "NWHI,_FFS") %>%
+  ggplot(aes(x = H_exp, y = H_obs, color = population)) +
+  geom_point() +
+  geom_abline(slope = 1)
+
+
+```
+Again, kind of a mess, but basically only over 0.4, which is interesting.
+
+
+
+```{r}
+par(mar=c(5.5, 4.5, 1, 1))
+  Hobs.pop <- apply(Hobs, MARGIN = 1, FUN = mean)
+  Hexp.pop <- apply(Hexp, 1, mean) 
+  barplot(Hexp.pop, ylim=c(0,1), las=3, ylab="Expected heterozygosity")
+  barplot(Hobs.pop, ylim=c(0,1), las=3, ylab="Observed heterozygosity")
+```
+
+
+
+```{r}
+bfal_diversity <- data.frame(Pop = names(Hobs.pop),
+                              n_samples = sum_output$n.by.pop,
+                              Hobs = Hobs.pop,
+                              Hexp = Hexp.pop)
+                              #Ar = Richness$mean.richness)
+as.tibble(bfal_diversity) %>%
+  rename(Population = Pop, H_obs = Hobs, H_exp = Hexp) #%>%
+  #write_csv("csv_outputs/reference_pop_hz_summary.csv")
+
+```
+
+chi^2: value of the classical chi-squared test statistic
+df: degrees of freedom of the chi-squared test
+Pr(chi^2 >): p-value of the chi-squared test (‘>’ indicates that the alternative is ‘greater,’ which is always the case for a chi-squared test)
+Pr.exact: p-value from an exact test based on Monte Carlo permutation of alleles (for diploids only). The default is B = 1000 permutations (set B = 0 to skip this test). Here we use the function ‘round’ with argument ‘digits = 3’ to round all values to 3 decimals.
+
+https://rdrr.io/cran/pegas/man/hw.test.html
+
+In this case, the degrees of freedom depend on the number alleles for a given locus.
+
+```{r}
+# HWE test for all loci - but really what we want is all loci in each population (farther below)
+hwe_output <- round(pegas::hw.test(genind_df, B = 1000), digits = 3)
+
+# which ones are statistically sign.
+rownames_to_column(data.frame(hwe_output)) %>%
+  filter(Pr.exact < 0.01)
+
+```
+
+28 loci that are out of HWE globally.
+
+After looking at the loci x population HWE info, I can remove any that are out of HWE in the majority of populations.
+
+
+```{r}
+# Chi-squared test: p-value
+HWE.test <- data.frame(sapply(seppop(genind_df), 
+                              function(ls) pegas::hw.test(ls, B=0)[,3]))
+HWE.test.chisq <- t(data.matrix(HWE.test))
+{cat("Chi-squared test (p-values):", "\n")
+round(HWE.test.chisq,3)}
+
+# these are the p-values for the per-pop calcs
+loci_to_toss_hwe <- rownames_to_column(as.data.frame(HWE.test.chisq), var = "population") %>%
+  pivot_longer(cols= 2:length(rownames_to_column(as.data.frame(HWE.test.chisq))), names_to = "locus", values_to = "p_val") %>%
+  filter(p_val < 0.05) %>% # which p-values are significant?
+  group_by( locus) %>%
+  tally() %>% # how many loci are out of HWE in how many populations?
+  arrange(desc(n)) %>%
+  filter(n>3)
+
+```
+
+Remove loci that are statistically out of HWE in >3 populations (the majority).
+
+
+That's only 4 loci.
+
+```{r}
+loci_to_toss_hwe %>%
+  write_csv("csv_outputs/loci_to_toss_hwe.csv")
+
+loci_to_keep <- rownames_to_column(as.data.frame(HWE.test.chisq), var = "population") %>%
+  pivot_longer(cols= 2:length(rownames_to_column(as.data.frame(HWE.test.chisq))), names_to = "locus", values_to = "p_val") %>%
+  select(locus) %>%
+  unique() %>%
+  anti_join(., loci_to_toss_hwe)
+  
+
+
+loci_to_keep %>%
+  write_csv("csv_outputs/loci_to_keep_hwe.csv")
+# from here, I can generate a "final" dataset.
+```
+
+
+
+## Additional analyses
+
+25 March 2024
+
+In prep for the manuscript...
+Looking at LD, primarily
+Consider implementation of a Bonferroni correction...
+
+```{r exploring-LD}
+library(poppr)
+
+poppr(genind_df)
+locus_table(genind_df)
+```
+
+### LD calcs
+```{r subset-for-just-Torishima-LD-analysis}
+JP <- popsub(genind_df, "Japan,_Torishima")
+
+set.seed(335)
+ia(JP, sample = 999)
+```
+
+Overall?
+```{r check-LD-over-all-pops}
+set.seed(335)
+ia(genind_df, sample = 999)
+
+```
+
+```{r Torishima-LD}
+pairwise_ld_by_locus <- pair.ia(JP, sample = 10, plot = F)
+
+jp_pvals <- rownames_to_column(as.data.frame(pairwise_ld_by_locus)) #%>%
+  #filter(rbarD > 0.8)
+
+# test using a
+# bonferroni-adjustment
+# for multiple tests
+as.data.frame(round(p.adjust(jp_pvals$p.rD, "bonferroni"), 3)) %>%
+  rename(corrected_pval = `round(p.adjust(jp_pvals$p.rD, "bonferroni"), 3)`) %>%
+  filter(corrected_pval < 0.05)
+
+```
+LD present in 3 pairs (6 loci) in the Torishima subset. Let's check the rest of the dataset.
+
+```{r LD-with-bonferroni-for-all-loci-pops}
+#LD_by_locus_all <- pair.ia(genind_df, plot = F, sample = 50)
+
+#ld_for_bonfer <- rownames_to_column(as.data.frame(LD_by_locus_all))
+
+## save that R data frame because it takes a long time to run the pair.ia with the sample call
+# ld_for_bonfer %>%
+#   write_rds("csv_outputs/LD_for_bonferroni.rds")
+
+ld_for_bonfer <- read_rds("csv_outputs/LD_for_bonferroni.rds")
+
+# bonferroni-adjustment
+# for multiple tests
+as.data.frame(round(p.adjust(ld_for_bonfer$p.rD, "bonferroni"), 3)) %>%
+  rename(corrected_pval = `round(p.adjust(ld_for_bonfer$p.rD, "bonferroni"), 3)`) %>%
+  filter(corrected_pval < 0.05)
+
+```
+
+The below analysis of LD in each of the pops is kind of interesting, but it's not necessary to remove any of the loci because of the Bonferroni correction.
+
+
+```{r which-loci-in-LD}
+# linked_loci <- rownames_to_column(as.data.frame(LD_by_locus_all)) %>%
+#   filter(rbarD > 0.8)
+# 
+# linked_loci
+```
+
+If I need to remove 4 loci because of linkage, can I be strategic about minimizing missing data?
+Also, very interesting that the locus on scaffold 343 is linked with a locus on scaffold 700.
+**Most likely unnecessary because of multiple comparisons (Bonferroni correction)
+
+```{r choose-which-loci-with-LD}
+# locs_to_remove_for_LD <- linked_loci %>%
+#   separate(rowname, into = c("loc1", "loc2"), sep = ":") %>%
+#   pivot_longer(1:2, names_to = "loc", values_to = "locus") %>%
+#   select(locus) %>%
+#   left_join(., genos_locs_ind_filtered) %>%
+#   group_by(locus) %>%
+#   summarise(median(depth)) %>%
+#   filter(locus %in% c("scaffold_16_31673", "scaffold_185_1133045", "scaffold_28_4260845", "scaffold_343_863766")) %>%
+#   select(locus)
+# 
+# locs_to_remove_for_LD %>%
+#   write_csv("csv_outputs/locs_to_remove_for_LD.csv")
+```
+Ok, pretty clear which loci generally have higher read depths for each of those pairs.
+
+Out of curiosity, what about any of the other subpops?
+```{r other-pops-LD}
+# What is going on with Laysan??
+pop1 <- popsub(genind_df, "NWHI,_Laysan")
+pairwise_ld_by_locus <- pair.ia(pop1)
+rownames_to_column(as.data.frame(pairwise_ld_by_locus)) %>%
+  filter(rbarD > 0.8) %>%
+  separate(rowname, into = c("loc1", "loc2"), sep = ":")
+
+```
+50 unique loci involved in LD in the Laysan population.
+
+A couple of options: there's something funky with the evolutionary history of hybridization that's present in the Laysan birds, or there are functionally duplicate samples... somehow?
+```{r}
+# are there cloned multilocus genotypes, somehow?
+Laysan_pair <- clonecorrect(pop1) %>% pair.ia
+
+rownames_to_column(as.data.frame(Laysan_pair)) %>%
+  filter(rbarD > 0.8)
+```
+
+
+```{r other-pops-LD2}
+pop2 <- popsub(genind_df, "NWHI,_Midway")
+pairwise_ld_by_locus <- pair.ia(pop2)
+rownames_to_column(as.data.frame(pairwise_ld_by_locus)) %>%
+  filter(rbarD > 0.8)
+
+```
+
+Okay, well, Laysan Island aside, we have the four loci to remove based on LD from the full dataset.
+
+

@@ -1,0 +1,856 @@
+sampleID,SBNDID,VerifySpecies,FisheriesName,GenCollArea,BandY/N,MinAgeCollection,Location,Loc-Abbr,Sex,AgeEst,CollMonth,CollDay,CollYear
+008-1139,3099,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,29,2008
+008-1140,3100,BFAL,Hawaii Shallow-set Longline,HI,TRUE,NA,NA,NA,F,AD,4,20,2008
+008-1148,3108,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,29,2006
+008-1844,3267,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,29,2008
+008-2149,3279,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,11,2,2006
+008-2152,3282,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,5,18,2006
+008-2169,3299,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,28,2008
+008-2174,3304,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,31,2008
+008-2176,3306,BFAL,Hawaii Deep-set Longline,HI,TRUE,NA,NA,NA,F,AD,5,20,2008
+008-2177,3307,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,25,2008
+09-0421,3320,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,NA,2,23,2009
+09-0422,3321,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,NA,4,17,2009
+10-0212,3378,BFAL,Hawaii Deep-set Longline,HI,TRUE,6,French Frigate Shoals,"NWHI, FFS",F,AD,1,27,2010
+10-0217,3383,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,17,2010
+10-0226,3392,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,8,2010
+10-0227,3393,BFAL,Hawaii Deep-set Longline,HI,TRUE,14,French Frigate Shoals,"NWHI, FFS",F,AD,2,11,2010
+10-0228,3394,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,15,2010
+10-0229,3395,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,15,2009
+10-0230,3396,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,26,2009
+10-0231,3397,BFAL,Hawaii Deep-set Longline,HI,TRUE,1,French Frigate Shoals,"NWHI, FFS",M,IM,6,19,2009
+10-0233,3399,BFAL,Hawaii Deep-set Longline,HI,TRUE,9,French Frigate Shoals,"NWHI, FFS",F,AD,5,19,2009
+10-0234,3400,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,8,2010
+10-0240,3406,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,21,2010
+10-0242,3408,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,22,2010
+10-0461,3561,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,26,2005
+10-0462,3562,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,12,2006
+10-0463,3563,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,12,2006
+10-0485,3585,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,12,2010
+10-0486,3586,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,11,2010
+10-0487,3587,BFAL,Hawaii Deep-set Longline,HI,TRUE,8,French Frigate Shoals,"NWHI, FFS",M,AD,2,11,2010
+10-0495,3595,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,1,2010
+10-0496,3596,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,1,2010
+10-0497,3597,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,23,2010
+10-0584,3681,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,23,2005
+10-0585,3682,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,10,2005
+10-0627,3720,BFAL,Alaska Groundfish fisheries,AK,TRUE,3,Midway Atoll,"NWHI, Midway",M,AD,8,24,1995
+10-0628,3721,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,5,8,2006
+10-0647,3740,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,27,2007
+10-0660,3753,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,AD,8,16,2009
+10-0661,3754,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,7,2009
+10-0669,3761,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,24,2005
+10-0670,3762,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,13,2006
+10-0678,3770,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,14,2005
+10-0739,3812,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,27,2008
+10-0759,3832,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,25,2007
+10-0760,3833,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,9,7,2007
+10-0788,3861,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,7,2009
+10-0791,3864,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,1,2005
+10-0792,3865,BFAL,Hawaii Deep-set Longline,HI,TRUE,8,French Frigate Shoals,"NWHI, FFS",F,AD,4,24,2006
+10-0793,3866,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,14,2005
+11-0293,3989,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,9,29,2010
+11-0328,3997,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,7,4,2010
+11-0334,4003,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,4,2010
+11-0335,4004,BFAL,Alaska Groundfish fisheries,AK,TRUE,5,French Frigate Shoals,"NWHI, FFS",M,AD,5,13,2010
+11-0343,4012,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,4,24,2010
+11-0383,4051,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,9,7,2010
+11-0387,4055,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,11,2011
+11-0388,4056,BFAL,Hawaii Deep-set Longline,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",F,AD,3,6,2011
+11-0389,4057,BFAL,Hawaii Deep-set Longline,HI,TRUE,NA,NA,NA,F,AD,3,6,2011
+11-0594,4091,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,8,5,2010
+11-0607,4102,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,16,2011
+11-0608,4103,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,2,2011
+11-0614,4109,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,16,2011
+11-0621,4116,BFAL,Hawaii Deep-set Longline,HI,TRUE,10,French Frigate Shoals,"NWHI, FFS",M,AD,5,1,2011
+11-0627,4122,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,14,2011
+11-0646,4140,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,3,2010
+11-0703,4185,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,19,2011
+11-0705,4187,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,18,2011
+11-0716,4198,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,1,2011
+11-0717,4199,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,28,2011
+11-0874,4274,BFAL,Alaska Groundfish fisheries,AK,TRUE,15,French Frigate Shoals,"NWHI, FFS",F,AD,5,1,2011
+11-0875,4275,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,1,2011
+11-0885,4285,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,5,11,2011
+12-0145,4439,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,7,2011
+12-0155,4449,BFAL,Alaska Groundfish fisheries,AK,TRUE,4,"Green Island, Kure Atoll, Honolulu County, Hawaii","NWHI, Kure",M,AD,10,22,2011
+12-0156,4450,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,26,2011
+12-0237,4452,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,7,8,2011
+12-0239,4454,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,2,2011
+12-0243,4458,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,20,2012
+12-0244,4459,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,6,2012
+12-0246,4461,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,10,2012
+12-0250,4465,BFAL,Hawaii Deep-set Longline,HI,TRUE,8,French Frigate Shoals,"NWHI, FFS",M,AD,2,11,2012
+12-0258,4473,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,2,11,2012
+12-0261,4476,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,17,2012
+12-0264,4479,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,18,2012
+12-0265,4480,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,19,2012
+12-0266,4481,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,5,2012
+12-0268,4483,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,27,2012
+12-0269,4484,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,5,2012
+12-0270,4485,BFAL,Hawaii Deep-set Longline,HI,TRUE,6,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",M,AD,3,9,2012
+12-0271,4486,BFAL,Hawaii Deep-set Longline,HI,TRUE,19,French Frigate Shoals,"NWHI, FFS",F,AD,3,2,2012
+12-0272,4487,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,9,2012
+12-0273,4488,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,4,2012
+12-0274,4489,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,8,2012
+12-0364,4490,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,24,2012
+12-0368,4494,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,25,2012
+12-0371,4497,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",F,AD,4,19,2012
+12-0372,4498,BFAL,Hawaii Deep-set Longline,HI,TRUE,18,French Frigate Shoals,"NWHI, FFS",M,AD,4,23,2012
+12-0373,4499,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,21,2012
+12-0374,4500,BFAL,Hawaii Shallow-set Longline,HI,TRUE,2,French Frigate Shoals,"NWHI, FFS",M,AD,4,23,2012
+12-0375,4501,BFAL,Hawaii Shallow-set Longline,HI,TRUE,17,French Frigate Shoals,"NWHI, FFS",M,AD,4,27,2012
+12-0376,4502,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,2,2012
+12-0381,4507,BFAL,Hawaii Deep-set Longline,HI,TRUE,6,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",F,AD,5,7,2012
+12-0383,4509,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,11,2012
+12-0384,4510,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,13,2012
+12-0386,4512,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,26,2012
+12-0387,4513,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,18,2012
+12-0390,4516,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,16,2012
+12-0391,4517,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,3,2012
+12-0394,4520,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,5,2012
+12-0395,4521,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,5,2012
+12-0397,4523,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,4,2012
+13-0537,4809,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,3,2013
+13-0538,4810,BFAL,Hawaii Deep-set Longline,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",M,IM,3,7,2013
+13-0539,4811,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,IM,2,25,2013
+13-0540,4812,BFAL,Hawaii Deep-set Longline,HI,TRUE,19,French Frigate Shoals,"NWHI, FFS",F,AD,3,7,2013
+13-0940,4818,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,20,2013
+13-0946,4823,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,IM,4,22,2013
+13-0947,4824,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,22,2013
+13-0949,4826,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,23,2013
+13-0950,4827,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,23,2013
+13-0951,4828,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,13,2013
+13-0952,4829,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,9,2013
+13-0958,4835,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,15,2013
+13-0964,4838,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,26,2013
+13-0969,4843,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,9,11,2012
+13-0977,4851,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,20,2013
+13-0978,4852,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,11,2013
+13-0981,4855,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,1,2013
+13-0986,4860,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,2,9,2013
+13-0991,4861,BFAL,Hawaii Deep-set Longline,HI,TRUE,3,"Green Island, Kure Atoll, Honolulu County, Hawaii","NWHI, Kure",F,AD,8,18,2012
+13-0992,4862,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,11,8,2012
+13-0993,4863,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,6,30,2012
+13-0994,4864,BFAL,Hawaii Deep-set Longline,HI,TRUE,15,French Frigate Shoals,"NWHI, FFS",F,AD,1,15,2013
+13-0995,4865,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,18,2013
+13-0996,4866,BFAL,Hawaii Deep-set Longline,HI,TRUE,5,French Frigate Shoals,"NWHI, FFS",F,AD,1,19,2013
+13-0997,4867,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,12,17,2012
+13-0998,4868,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,12,5,2012
+13-0999,7491,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,12,13,2012
+13-1087,4870,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,27,2013
+13-1096,4871,BFAL,Hawaii Deep-set Longline,HI,TRUE,10,"Near Kilauea Point, Kauai County, HI","Kauai, Kilauea",F,AD,2,16,2013
+13-1097,4872,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,1,2013
+13-1100,4875,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,12,19,2012
+13-1101,4876,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,12,19,2012
+13-1103,4878,BFAL,Hawaii Deep-set Longline,HI,TRUE,13,French Frigate Shoals,"NWHI, FFS",F,AD,1,18,2013
+13-1105,4880,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,8,22,2012
+13-1106,4881,BFAL,Hawaii Deep-set Longline,HI,TRUE,9,French Frigate Shoals,"NWHI, FFS",M,AD,7,3,2012
+13-1176,4885,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,10,2013
+13-1177,4886,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,14,2013
+13-1178,4887,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,15,2013
+13-1179,4888,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,18,2013
+13-1184,4893,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,7,2013
+13-1185,4894,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,20,2013
+13-1187,4896,BFAL,Hawaii Deep-set Longline,HI,TRUE,8,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",F,AD,5,25,2013
+13-1188,4897,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,26,2013
+13-1191,4900,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,13,2013
+13-1194,4903,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,6,9,2013
+13-1195,4904,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,21,2013
+13-1196,4905,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,25,2013
+13-1197,4906,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,26,2013
+13-1198,4907,BFAL,Hawaii Deep-set Longline,HI,TRUE,1,"Green Island, Kure Atoll, Honolulu County, Hawaii","NWHI, Kure",F,IM,6,26,2013
+13-1199,4908,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,14,2013
+13-1200,4909,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,24,2013
+13-1201,4910,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,24,2013
+13-1202,4911,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,12,2013
+14-0425,5008,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,16,2012
+14-0426,5009,BFAL,Alaska Groundfish fisheries,AK,TRUE,8,French Frigate Shoals,"NWHI, FFS",M,AD,5,14,2012
+14-0434,5017,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,24,2013
+14-0445,5028,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,9,2014
+14-0447,5029,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,7,16,2013
+14-0448,5030,BFAL,Hawaii Deep-set Longline,HI,TRUE,18,French Frigate Shoals,"NWHI, FFS",F,AD,5,7,2013
+14-0449,5031,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,9,2013
+14-0451,5033,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,27,2013
+14-0453,5035,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,7,2014
+14-0454,5036,BFAL,Hawaii Deep-set Longline,HI,TRUE,6,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",M,AD,5,23,2013
+14-0456,5038,BFAL,Hawaii Deep-set Longline,HI,TRUE,9,"Green Island, Kure Atoll, Honolulu County, Hawaii","NWHI, Kure",F,AD,12,19,2013
+14-0470,5043,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,11,6,2013
+14-0471,5044,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,31,2013
+14-0472,5045,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,IM,8,27,2013
+14-0473,5046,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,1,2013
+14-0474,5047,BFAL,Alaska Groundfish fisheries,AK,TRUE,12,Midway Atoll,"NWHI, Midway",M,AD,10,11,2013
+14-0546,5115,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,1,2014
+14-0547,5116,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,26,2014
+14-0548,5117,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,3,11,2014
+14-0549,5118,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,26,2014
+14-0740,5170,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,18,2014
+14-0741,5171,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,13,2014
+14-0742,5172,BFAL,Hawaii Deep-set Longline,HI,TRUE,5,French Frigate Shoals,"NWHI, FFS",F,AD,3,15,2014
+14-0743,5173,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,18,2014
+14-0744,5174,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,14,2014
+14-0745,5175,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,21,2014
+14-0746,5176,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,18,2014
+14-0747,5177,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,3,17,2014
+14-0748,5178,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,29,2013
+14-0752,5182,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,17,2014
+15-0111,5187,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,18,2014
+15-0112,5188,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,25,2014
+15-0113,5189,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,7,6,2014
+15-0114,5190,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,7,10,2014
+15-0115,5191,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,11,27,2014
+15-0116,5192,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,11,27,2014
+15-0117,5193,BFAL,Hawaii Deep-set Longline,HI,TRUE,9,French Frigate Shoals,"NWHI, FFS",F,AD,11,28,2014
+15-0118,5194,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",F,AD,12,1,2014
+15-0119,5195,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,12,9,2014
+15-0120,5196,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,12,2014
+15-0121,5197,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,12,11,2014
+15-0122,5198,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,12,17,2014
+15-0123,5199,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,12,22,2014
+15-0124,5200,BFAL,Hawaii Deep-set Longline,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",F,AD,1,1,2015
+15-0125,5201,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,23,2014
+15-0127,5203,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,5,2015
+15-0130,5206,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,19,2015
+15-0131,5207,BFAL,Hawaii Deep-set Longline,HI,TRUE,9,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",F,AD,2,23,2015
+15-0133,5209,BFAL,Hawaii Shallow-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",M,AD,3,25,2015
+15-0136,5212,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,9,2015
+15-0171,5244,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,20,2014
+15-0172,5245,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,IM,4,28,2014
+15-0209,5268,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,16,2014
+15-0210,5269,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,16,2014
+15-0211,5270,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,21,2014
+15-0212,5271,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,12,1,2014
+15-0213,5272,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,NA,12,17,2014
+15-0214,5273,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,22,2014
+15-0215,5274,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,15,2015
+15-0217,5276,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,3,2015
+15-0218,5277,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,17,2015
+15-0219,5278,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,17,2015
+15-0220,5279,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,5,19,2015
+15-0222,5281,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,22,2015
+15-0223,5282,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,23,2015
+15-0224,5283,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,26,2015
+15-0225,5284,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,27,2015
+15-0226,5285,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,27,2015
+15-0227,5286,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,29,2015
+15-0229,5288,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,8,2015
+15-0230,5289,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,7,8,2015
+15-0231,5290,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,24,2015
+15-0308,5317,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,27,2014
+15-0309,5318,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,18,2014
+15-0310,5319,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,12,8,2014
+15-0311,5320,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,16,2014
+15-0313,5322,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,17,2015
+15-0314,5323,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,7,2015
+15-0315,5324,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,13,2015
+15-0318,5327,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,17,2015
+15-0319,5328,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,19,2015
+15-0325,5334,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,10,2015
+15-0326,5335,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",F,AD,5,18,2015
+15-0327,5336,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,14,2015
+15-0328,5337,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,10,2015
+15-0329,5338,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,10,2015
+15-0330,5339,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,27,2015
+15-0331,5340,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,28,2015
+15-0332,5341,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,30,2015
+15-0333,5342,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,7,4,2015
+15-0334,5343,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,7,11,2015
+15-0352,5359,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,17,2014
+15-0383,5390,BFAL,Alaska Groundfish fisheries,AK,TRUE,4,French Frigate Shoals,"NWHI, FFS",M,AD,7,22,2014
+15-0384,5391,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,18,2015
+15-0388,5395,BFAL,Alaska Groundfish fisheries,AK,TRUE,4,French Frigate Shoals,"NWHI, FFS",F,AD,6,1,2008
+15-0389,5396,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,9,2010
+15-0390,5397,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,6,2,2013
+15-0418,5409,BFAL,Alaska Groundfish fisheries,AK,TRUE,8,"Green Island, Kure Atoll, Honolulu County, Hawaii","NWHI, Kure",M,AD,7,21,2014
+15-0452,5443,BFAL,Alaska Groundfish fisheries,AK,TRUE,7,Midway Atoll,"NWHI, Midway",M,AD,5,8,2014
+15-0453,5444,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,7,9,2014
+15-0460,5448,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,9,2015
+15-0462,5450,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,1,2015
+15-0463,5451,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,31,2015
+15-0465,5453,BFAL,Hawaii Shallow-set Longline,HI,TRUE,8,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",F,AD,4,5,2015
+15-0466,5454,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,4,2015
+15-0467,5455,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,2,2015
+15-0471,5459,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,31,2015
+15-0472,5460,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,31,2015
+15-0473,5461,BFAL,Hawaii Deep-set Longline,HI,TRUE,13,French Frigate Shoals,"NWHI, FFS",F,AD,6,6,2015
+15-0474,5462,BFAL,Hawaii Deep-set Longline,HI,TRUE,13,French Frigate Shoals,"NWHI, FFS",F,AD,6,6,2015
+15-0475,5463,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,6,2015
+15-0476,5464,BFAL,Hawaii Deep-set Longline,HI,TRUE,10,French Frigate Shoals,"NWHI, FFS",F,AD,6,6,2015
+15-0477,5465,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,6,2015
+15-0478,5466,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,7,2015
+15-0480,5468,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,7,2015
+15-0481,5469,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,8,2015
+15-0482,5470,BFAL,Hawaii Deep-set Longline,HI,TRUE,NA,NA,NA,M,AD,6,8,2015
+15-0485,5473,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,9,2015
+15-0486,5474,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,6,12,2015
+15-0488,5476,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,6,24,2015
+15-0489,5477,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",F,AD,6,24,2015
+15-0490,5478,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,25,2015
+15-0491,5479,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,7,3,2015
+15-0492,5480,BFAL,Hawaii Deep-set Longline,HI,TRUE,13,French Frigate Shoals,"NWHI, FFS",F,AD,7,15,2015
+16-0049,5515,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,13,2014
+16-0174,5549,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,5,31,2015
+16-0176,5551,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,27,2014
+16-0177,5552,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,28,2014
+16-0183,5558,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,12,2014
+16-0184,5559,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,12,2014
+16-0223,5582,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,6,7,2011
+16-0224,5583,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,25,2014
+16-0228,5587,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,9,2014
+16-0315,5641,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,15,2015
+16-0316,5642,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,9,2015
+16-0317,5643,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,7,24,2015
+16-0318,5644,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,8,21,2015
+16-0319,5645,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,10,6,2015
+16-0320,5646,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,8,31,2015
+16-0321,5647,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,12,19,2015
+16-0322,5648,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,3,2016
+16-0323,5649,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,5,2016
+16-0324,5650,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,1,2016
+16-0325,5732,BFAL,Hawaii Deep-set Longline,HI,TRUE,14,French Frigate Shoals,"NWHI, FFS",M,AD,2,10,2016
+16-0326,5652,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,28,2016
+16-0328,5654,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,5,2016
+16-0329,5734,BFAL,Hawaii Deep-set Longline,HI,TRUE,22,French Frigate Shoals,"NWHI, FFS",F,AD,2,5,2016
+16-0332,5658,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,13,2016
+16-0334,5660,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,16,2016
+16-0335,5661,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,21,2016
+16-0338,5664,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,22,2016
+16-0339,5736,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",F,AD,2,28,2016
+16-0340,5666,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,20,2016
+16-0342,5668,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,3,31,2016
+16-0360,5669,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,14,2015
+16-0361,5737,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,15,French Frigate Shoals,"NWHI, FFS",F,AD,1,17,2016
+16-0362,5671,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,7,2016
+16-0363,5672,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,8,2016
+16-0365,5674,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,23,2016
+16-0367,5676,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,1,2016
+16-0368,5677,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,4,2016
+16-0370,5679,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,1,8,2016
+16-0371,5680,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,11,2016
+16-0372,5681,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,12,2016
+16-0373,5740,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,9,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",F,AD,1,22,2016
+16-0374,5683,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,1,18,2016
+16-0375,5684,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,18,2016
+16-0376,5685,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,17,2016
+16-0377,5686,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,15,2016
+16-0378,5741,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,20,French Frigate Shoals,"NWHI, FFS",F,AD,4,19,2016
+16-0379,5742,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,10,French Frigate Shoals,"NWHI, FFS",M,AD,2,15,2016
+16-0382,5691,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,24,2016
+16-0384,5693,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,27,2016
+16-0385,5694,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,16,2016
+16-0386,5695,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,22,2016
+16-0387,5696,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,16,2016
+16-0388,5697,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,14,2016
+16-0391,5700,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,21,2016
+16-0392,5701,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,13,2016
+16-0398,5702,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,21,2014
+16-0400,5743,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,8,"Lehua Island, Kauai, Kauai County, HI","Kauai, Lehua",F,AD,1,17,2015
+16-0401,5744,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,6,"Lehua Island, Kauai, Kauai County, HI","Kauai, Lehua",F,AD,12,25,2014
+16-0402,5706,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,7,23,2015
+16-0403,5707,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,7,17,2015
+16-0404,5708,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,8,8,2015
+16-0405,5709,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,28,2016
+16-0406,5710,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,2,2016
+16-0407,5711,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,24,2016
+16-0408,5712,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,22,2016
+16-0409,5994,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,IM,7,24,2015
+16-0411,5995,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,7,25,2015
+16-0414,5996,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,1,15,2016
+16-0415,5997,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,1,11,2016
+16-0416,5998,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,IM,1,16,2016
+16-0555,5999,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,1,24,2016
+16-0556,6000,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,1,27,2016
+16-0557,6001,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,1,29,2016
+16-0558,6115,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,8,French Frigate Shoals,"NWHI, FFS",M,AD,1,29,2016
+16-0559,6003,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,1,29,2016
+16-0560,6004,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,2,3,2016
+16-0561,6005,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,1,24,2016
+16-0562,6006,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,2,2,2016
+16-0563,6007,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,2,17,2016
+16-0566,6010,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,2,24,2016
+16-0568,6012,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,IM,2,26,2016
+16-0571,6015,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,6,5,2016
+16-0572,6016,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,IM,6,25,2016
+16-0573,6017,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,6,23,2016
+16-0574,6018,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,7,11,2016
+16-0575,6019,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,7,11,2016
+16-0576,6020,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,IM,7,10,2016
+16-0577,6021,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,7,2,2016
+16-0578,6022,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,7,11,2016
+16-0579,6023,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,NA,NA,2016
+16-0593,6037,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,8,15,2015
+16-0594,6038,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,8,24,2015
+16-0595,6117,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",F,AD,5,14,2016
+16-0596,6040,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,5,19,2016
+16-0597,6041,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,5,17,2016
+16-0598,6042,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,6,7,2016
+16-0599,6118,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,21,French Frigate Shoals,"NWHI, FFS",F,AD,6,4,2016
+16-0600,6044,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,6,7,2016
+16-0601,6045,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,6,22,2016
+16-0602,6119,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",M,AD,7,2,2016
+16-0603,6047,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,6,26,2016
+16-0604,6048,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,6,22,2016
+16-0605,6049,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,7,2,2016
+16-0608,6052,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,2,5,2015
+16-0609,6053,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,NA,NA,2016
+16-0611,6055,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,IM,NA,NA,2015
+17-0221,5776,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,17,2016
+17-0222,5777,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,25,2016
+17-0225,5780,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,25,2016
+17-0237,5792,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,25,2016
+17-0278,5831,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,11,2016
+17-0279,5832,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,1,2015
+17-0282,5835,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,NA,NA,2017
+17-0283,5836,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,NA,NA,2017
+17-0285,5838,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,NA,NA,2017
+17-0286,5839,BFAL,Alaska Groundfish fisheries,AK,TRUE,15,Midway Atoll,"NWHI, Midway",M,AD,6,27,2016
+17-0287,5840,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,2,2015
+17-0289,5842,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,13,2017
+17-0290,5843,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,2,20,2017
+17-0291,5844,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,10,31,2016
+17-0294,5847,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,19,2017
+17-0295,5848,BFAL,Hawaii Deep-set Longline,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",M,AD,1,8,2017
+17-0311,5850,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,28,2012
+17-0312,5851,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,18,2017
+17-0319,5858,BFAL,Alaska Groundfish fisheries,AK,TRUE,NA,French Frigate Shoals,"NWHI, FFS",M,AD,5,5,2017
+17-0340,5879,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,17,2017
+17-0341,5880,BFAL,Alaska Groundfish fisheries,AK,TRUE,NA,French Frigate Shoals,"NWHI, FFS",M,AD,4,20,2015
+17-0350,5889,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,17,2017
+17-0436,5957,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,10,31,2016
+17-0437,5958,BFAL,Hawaii Deep-set Longline,HI,TRUE,9,French Frigate Shoals,"NWHI, FFS",M,AD,12,17,2016
+17-0438,5959,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,7,2016
+17-0439,5960,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,4,2016
+17-0557,5961,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,6,2017
+17-0558,5962,BFAL,Hawaii Deep-set Longline,HI,TRUE,>12,French Frigate Shoals,"NWHI, FFS",M,AD,2,15,2017
+17-0559,5963,BFAL,Hawaii Deep-set Longline,HI,TRUE,16,French Frigate Shoals,"NWHI, FFS",M,AD,3,26,2017
+17-0560,5964,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,26,2017
+17-0561,5965,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,12,2017
+17-0562,5966,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,24,2017
+17-0563,5967,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,22,2017
+17-0564,5968,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,29,2017
+17-0565,5969,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,28,2017
+17-0566,5970,BFAL,Hawaii Deep-set Longline,HI,TRUE,22,French Frigate Shoals,"NWHI, FFS",F,AD,5,25,2017
+17-0567,5971,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",M,AD,6,19,2017
+17-0568,5972,BFAL,Hawaii Deep-set Longline,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",M,AD,7,5,2017
+17-0569,5973,BFAL,Hawaii Deep-set Longline,HI,TRUE,14,French Frigate Shoals,"NWHI, FFS",F,AD,7,1,2017
+17-0570,5974,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,7,7,2017
+17-0571,5975,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,7,6,2017
+17-0572,5976,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,7,8,2017
+17-0573,5977,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,7,12,2017
+17-0574,5978,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,7,11,2017
+17-0575,5979,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,7,15,2017
+17-0591,5981,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,20,2017
+17-0592,5982,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,3,2017
+17-0608,5986,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,11,2017
+17-0609,5987,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,2,2017
+17-0612,5990,BFAL,Hawaii Shallow-set Longline,HI,TRUE,16,French Frigate Shoals,"NWHI, FFS",F,AD,4,10,2017
+18-0029,6122,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,19,2017
+18-0030,6123,BFAL,At-Sea Hake Trawl,WA,TRUE,NA,NA,NA,F,AD,5,20,2016
+18-0031,6124,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,AD,6,1,2016
+18-0032,6125,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,AD,5,16,2017
+18-0048,6140,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,14,2017
+18-0049,6141,BFAL,Hawaii Shallow-set Longline,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",F,AD,1,14,2017
+18-0050,6142,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,1,20,2017
+18-0052,6144,BFAL,Hawaii Deep-set Longline,HI,TRUE,23,French Frigate Shoals,"NWHI, FFS",F,AD,1,12,2017
+18-0053,6145,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,5,29,2017
+18-0054,6146,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,6,2017
+18-0055,6147,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,5,2017
+18-0056,6148,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,7,24,2017
+18-0057,6149,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,7,14,2017
+18-0100,6168,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,10,2017
+18-0101,6169,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,10,2017
+18-0303,6214,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,29,2017
+18-0304,6215,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,5,2017
+18-0305,6216,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,5,6,2017
+18-0306,6217,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,23,2017
+18-0307,6218,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,5,2017
+18-0308,6219,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,9,6,2017
+18-0309,6220,BFAL,Alaska Groundfish fisheries,AK,TRUE,NA,NA,NA,M,AD,8,13,2017
+18-0370,6255,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,9,2015
+18-0473,6294,BFAL,Hawaii Deep-set Longline,HI,TRUE,14,French Frigate Shoals,"NWHI, FFS",F,AD,3,1,2018
+18-0474,6295,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,11,2018
+18-0475,6296,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,17,2018
+18-0476,6297,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,23,2018
+18-0477,6298,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,16,2018
+18-0478,6299,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,11,2018
+18-0479,6300,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,21,2018
+18-0480,6301,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,15,2018
+18-0481,6302,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,21,2018
+18-0482,6303,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,1,2018
+18-0483,6304,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,14,2018
+18-0484,6305,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,4,20,2018
+18-0485,6306,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,17,2018
+18-0486,6627,BFAL,Hawaii Deep-set Longline,HI,TRUE,8,French Frigate Shoals,"NWHI, FFS",M,AD,4,23,2018
+18-0487,6308,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,NA,NA,2018
+18-0488,6309,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,13,2018
+18-0489,6628,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",M,AD,3,22,2018
+18-0493,6314,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,26,2018
+18-0506,6315,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,23,2018
+18-0507,6316,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,20,2018
+18-0508,6317,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,20,2018
+18-0509,6318,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,8,2018
+18-0514,6321,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,14,2018
+18-0518,6325,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,4,29,2018
+19-0092,6373,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,22,2018
+19-0093,6630,BFAL,Hawaii Deep-set Longline,HI,TRUE,17,"Green Island, Kure Atoll, Honolulu County, Hawaii","NWHI, Kure",F,AD,5,19,2018
+19-0094,6375,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,22,2018
+19-0095,6376,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,27,2018
+19-0096,6377,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,20,2018
+19-0097,6378,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,20,2018
+19-0098,6379,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,18,2018
+19-0099,6380,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,23,2018
+19-0100,6381,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,16,2018
+19-0101,6382,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,25,2018
+19-0102,6383,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,5,18,2018
+19-0103,6384,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,7,2018
+19-0104,6385,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,18,2018
+19-0105,6386,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,22,2018
+19-0108,6387,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,8,2018
+19-0109,6388,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,5,20,2018
+19-0110,6631,BFAL,Hawaii Deep-set Longline,HI,TRUE,>13,French Frigate Shoals,"NWHI, FFS",F,AD,5,18,2018
+19-0112,6633,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",F,AD,5,19,2018
+19-0113,6634,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",M,AD,3,10,2018
+19-0114,6393,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,19,2018
+19-0115,6635,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",M,AD,5,20,2018
+19-0116,6636,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",F,AD,5,20,2018
+19-0117,6396,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,NA,NA,2019
+19-0118,6397,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,18,2018
+19-0119,6637,BFAL,Hawaii Deep-set Longline,HI,TRUE,8,French Frigate Shoals,"NWHI, FFS",F,AD,5,24,2018
+19-0153,6400,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,3,29,2018
+19-0154,6401,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,4,2018
+19-0155,6402,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,24,2018
+19-0156,6403,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,15,2018
+19-0157,6404,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,8,2018
+19-0160,6405,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,29,2018
+19-0161,6406,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,7,2018
+19-0162,6407,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,17,2018
+19-0163,6408,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,8,2018
+19-0164,6409,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,3,12,2018
+19-0169,6638,BFAL,Hawaii Deep-set Longline,HI,TRUE,22,French Frigate Shoals,"NWHI, FFS",F,AD,3,24,2018
+19-0170,6639,BFAL,Hawaii Deep-set Longline,HI,TRUE,20,French Frigate Shoals,"NWHI, FFS",F,AD,3,30,2018
+19-0171,6412,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,19,2018
+19-0172,6413,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,25,2018
+19-0173,6414,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,18,2018
+19-0174,6415,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,22,2018
+19-0175,6416,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,14,2018
+19-0176,6417,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,12,2018
+19-0177,6418,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,5,2018
+19-0178,6419,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,5,13,2018
+19-0180,6421,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,26,2018
+19-0181,6422,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,12,2018
+19-0182,6641,BFAL,Hawaii Deep-set Longline,HI,TRUE,15,French Frigate Shoals,"NWHI, FFS",M,AD,3,20,2018
+19-0183,6424,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,12,2018
+19-0184,6425,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,28,2018
+19-0263,6427,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,20,2018
+19-0264,6428,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,12,6,2018
+19-0266,6430,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,2,2018
+19-0267,6431,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,20,2018
+19-0269,6432,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,24,2018
+19-0291,6644,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,"Green Island, Kure Atoll, Honolulu County, Hawaii","NWHI, Kure",F,AD,1,28,2019
+19-0292,6436,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,11,25,2018
+19-0293,6645,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",M,AD,1,18,2019
+19-0294,6438,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,12,13,2018
+19-0295,6439,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,7,2018
+19-0296,6440,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,12,7,2018
+19-0297,6441,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,9,2018
+19-0299,6443,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,21,2019
+19-0302,6446,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,24,2019
+19-0304,6448,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,17,2019
+19-0306,6648,BFAL,Hawaii Deep-set Longline,HI,TRUE,>8,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",F,AD,1,17,2019
+19-0307,6451,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,8,10,2018
+19-0315,6459,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,8,23,2018
+19-0316,6653,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",M,AD,11,15,2018
+19-0317,6461,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,8,17,2018
+19-0318,6462,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,11,29,2018
+19-0319,6463,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,30,2018
+19-0368,6654,BFAL,At-Sea Hake Trawl,WA,TRUE,NA,NA,NA,M,AD,10,7,2018
+19-0369,6482,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,IM,11,13,2018
+19-0499,6547,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,NA,NA,2019
+19-0521,6569,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,NA,31,2015
+19-0526,6573,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,7,10,2017
+19-0527,6574,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,9,2017
+19-0528,6575,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,8,28,2017
+19-0529,6576,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,IM,10,1,2017
+19-0533,6580,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,M,AD,3,25,2018
+19-0562,6602,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,29,2015
+19-0563,6603,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,IM,5,31,2015
+19-0564,6604,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,29,2015
+19-0565,6605,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,31,2015
+19-0566,6606,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,4,25,2016
+19-0588,6613,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,13,2019
+19-0589,6614,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,30,2017
+19-0590,6615,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,9,2017
+19-0634,6696,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,4,2019
+19-0635,6697,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,1,2019
+19-0660,6698,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,30,2019
+19-0661,6699,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,7,2019
+19-0662,6700,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,1,2019
+19-0663,6701,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,4,2018
+19-0664,6702,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,6,16,2019
+19-0669,6703,BFAL,Hawaii Deep-set Longline,HI,TRUE,10,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",M,AD,3,20,2019
+19-0670,6704,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,14,2019
+19-0671,6705,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,4,2019
+19-0674,6708,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,15,2019
+19-0675,6709,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,16,2019
+19-0676,6710,BFAL,Hawaii Shallow-set Longline,HI,TRUE,16,French Frigate Shoals,"NWHI, FFS",F,AD,3,3,2019
+19-0678,6712,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,18,2019
+19-0679,6713,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,14,2019
+19-0680,6714,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,18,2019
+19-0681,6715,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,10,2019
+19-0691,6718,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,11,2019
+19-0693,6720,BFAL,Hawaii Deep-set Longline,HI,TRUE,20,French Frigate Shoals,"NWHI, FFS",F,AD,5,29,2019
+19-0694,6721,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,5,2019
+19-0695,6722,BFAL,Hawaii Deep-set Longline,HI,TRUE,>23,French Frigate Shoals,"NWHI, FFS",M,AD,2,3,2019
+19-0728,6725,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",F,AD,2,27,2019
+19-0729,6726,BFAL,Hawaii Deep-set Longline,HI,TRUE,8,French Frigate Shoals,"NWHI, FFS",M,AD,5,18,2019
+19-0730,6727,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,15,2019
+19-0731,6728,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,7,2019
+20-0014,6729,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,1,2019
+20-0015,6730,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,27,2019
+20-0017,6732,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,8,2019
+20-0019,6734,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,1,2019
+20-0021,6736,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,8,2019
+20-0022,6737,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,14,2019
+20-0023,6738,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,29,2018
+20-0024,6739,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",M,AD,3,12,2019
+20-0025,6740,BFAL,Hawaii Deep-set Longline,HI,TRUE,9,French Frigate Shoals,"NWHI, FFS",F,AD,1,20,2019
+20-0051,6742,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,8,2018
+20-0052,6743,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,21,2018
+20-0053,6744,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,1,2017
+20-0054,6745,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,1,2017
+20-0055,6746,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,1,25,2017
+20-0057,6748,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,1,7,2018
+20-0058,6749,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,31,2017
+20-0059,6750,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,11,25,2017
+20-0060,6751,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,1,19,2018
+20-0066,6753,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,2,2017
+20-0067,6754,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,24,2017
+20-0068,6755,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,24,2017
+20-0070,6757,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,19,2017
+20-0072,6759,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,4,2018
+20-0079,6761,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,12,22,2017
+20-0080,6762,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,18,2017
+20-0081,6763,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,11,2017
+20-0082,6764,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,4,2017
+20-0085,6767,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,13,2017
+20-0086,6768,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,29,2017
+20-0087,6769,BFAL,Hawaii Deep-set Longline,HI,TRUE,22,French Frigate Shoals,"NWHI, FFS",F,AD,5,25,2017
+20-0088,6770,BFAL,Hawaii Deep-set Longline,HI,TRUE,NA,NA,NA,M,AD,6,9,2017
+20-0089,6771,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,23,2016
+20-0090,6772,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,3,2016
+20-0091,6773,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,4,2015
+20-0092,6774,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,5,22,2016
+20-0093,6775,BFAL,Alaska Groundfish fisheries,AK,TRUE,NA,NA,NA,M,AD,6,10,2016
+20-0094,6776,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,AD,6,7,2011
+20-0097,6779,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,6,4,2015
+20-0098,6780,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,6,6,2011
+20-0120,6783,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,30,2015
+20-0123,6786,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,8,1,2015
+20-0125,6788,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,18,2015
+20-0128,6791,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,4,2015
+20-0133,6796,BFAL,Hawaii Deep-set Longline,HI,TRUE,14,French Frigate Shoals,"NWHI, FFS",M,AD,3,24,2017
+20-0134,6797,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,1,8,2018
+20-0138,6801,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,6,2015
+20-0146,6809,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,30,2018
+20-0147,6810,BFAL,Hawaii Deep-set Longline,HI,TRUE,13,French Frigate Shoals,"NWHI, FFS",F,AD,2,1,2017
+20-0148,6811,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,12,11,2017
+20-0149,6812,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,2,2017
+20-0150,6813,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,6,2017
+20-0151,6814,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,5,2017
+20-0153,6816,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,19,2017
+20-0154,6817,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,23,2017
+20-0155,6818,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,21,2018
+20-0156,6819,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,9,2017
+20-0167,6820,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,5,12,2016
+20-0168,6821,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,6,4,2013
+20-0205,6858,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,6,28,2018
+20-0206,6859,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,8,24,2017
+20-0243,6863,BFAL,Hawaii Shallow-set Longline,HI,TRUE,8,French Frigate Shoals,"NWHI, FFS",F,AD,4,14,2017
+20-0244,6864,BFAL,Hawaii Deep-set Longline,HI,TRUE,9,"Green Island, Kure Atoll, Honolulu County, Hawaii","NWHI, Kure",M,AD,2,13,2017
+20-0245,6865,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,1,2017
+20-0246,6866,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,19,2017
+20-0247,6867,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,26,2017
+20-0248,6868,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,25,2017
+20-0249,6869,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,NA,NA,2020
+20-0250,6870,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,17,2017
+20-0251,6871,BFAL,Alaska Groundfish fisheries,AK,TRUE,NA,NA,NA,M,AD,7,31,2017
+20-0252,6872,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,NA,NA,2020
+20-0253,6873,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,9,2017
+20-0255,6875,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,8,20,2016
+20-0297,6904,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,12,2016
+20-0298,6905,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,7,19,2016
+20-0299,6906,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,19,2016
+20-0305,6912,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,5,11,2017
+20-0306,6913,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,19,2017
+20-0307,6914,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,9,2018
+20-0308,6915,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,11,28,2018
+20-0309,6916,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,17,2019
+20-0310,6917,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,10,2017
+20-0311,6918,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,NA,NA,2020
+20-0312,6919,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,7,2018
+20-0313,6920,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,27,2017
+20-0314,6921,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,22,2017
+20-0315,6922,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,29,2018
+20-0316,6923,BFAL,Hawaii Deep-set Longline,HI,TRUE,10,French Frigate Shoals,"NWHI, FFS",F,AD,3,30,2018
+20-0346,6924,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,12,2016
+20-0356,6934,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,24,2018
+20-0357,6935,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,28,2018
+20-0358,6936,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,6,2018
+20-0359,6937,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,20,2017
+20-0377,6939,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,NA,NA,2020
+20-0381,6943,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,17,2016
+20-0386,6948,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,5,25,2016
+20-0387,6949,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,9,29,2017
+20-0388,6950,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,22,2017
+20-0395,6957,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,28,2018
+20-0396,6958,BFAL,Alaska Groundfish fisheries,AK,TRUE,NA,NA,NA,F,AD,6,3,2015
+20-0397,6959,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,24,2017
+20-0398,6960,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,22,2017
+20-0399,6961,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,8,11,2017
+20-0400,6962,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,21,2017
+20-0401,6963,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,NA,NA,2020
+20-0422,6981,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,21,2018
+20-0423,6982,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,6,26,2018
+20-0424,6983,BFAL,Hawaii Deep-set Longline,HI,TRUE,NA,NA,NA,M,AD,6,19,2018
+20-0425,6984,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,29,2018
+20-0426,6985,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,22,2018
+20-0427,6986,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,6,20,2018
+20-0493,7013,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,13,2018
+20-0494,7014,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,18,2018
+20-0495,7015,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,25,2018
+20-0496,7016,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,5,10,2018
+20-0497,7017,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,7,2018
+20-0498,7018,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,5,19,2018
+20-0499,7019,BFAL,Hawaii Deep-set Longline,HI,TRUE,>28,French Frigate Shoals,"NWHI, FFS",F,AD,5,13,2018
+20-0500,7020,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,3,2018
+20-0501,7021,BFAL,Hawaii Deep-set Longline,HI,TRUE,>14,French Frigate Shoals,"NWHI, FFS",M,AD,6,23,2018
+20-0502,7022,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,6,3,2018
+21-0044,7031,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,23,2017
+21-0045,7032,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,14,2017
+21-0046,7033,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,10,2017
+21-0047,7034,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,25,2017
+21-0048,7035,BFAL,Hawaii Deep-set Longline,HI,TRUE,NA,French Frigate Shoals,"NWHI, FFS",F,AD,1,12,2017
+21-0049,7036,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,7,2018
+21-0050,7037,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,5,2017
+21-0051,7038,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,3,2,2017
+21-0069,7040,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,9,2017
+21-0071,7042,BFAL,Hawaii Deep-set Longline,HI,TRUE,>11,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",M,AD,12,12,2017
+21-0073,7044,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,4,7,2017
+21-0074,7045,BFAL,Hawaii Deep-set Longline,HI,TRUE,7,French Frigate Shoals,"NWHI, FFS",M,AD,6,3,2017
+21-0075,7046,BFAL,Hawaii Deep-set Longline,HI,TRUE,15,French Frigate Shoals,"NWHI, FFS",F,AD,2,21,2017
+21-0077,7048,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,5,2017
+21-0078,7049,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,French Frigate Shoals,"NWHI, FFS",M,AD,5,8,2017
+21-0079,7050,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,15,2017
+21-0080,7051,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,19,2017
+21-0098,7053,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,31,2018
+21-0099,7054,BFAL,Hawaii Longline Fisheries Unknown-Set,HI,FALSE,NA,NA,NA,F,AD,0,0,2021
+21-0100,7055,BFAL,Hawaii Deep-set Longline,HI,TRUE,10,French Frigate Shoals,"NWHI, FFS",M,AD,2,9,2018
+21-0101,7056,BFAL,Hawaii Deep-set Longline,HI,TRUE,>18,French Frigate Shoals,"NWHI, FFS",F,AD,2,13,2018
+21-0102,7057,BFAL,Hawaii Deep-set Longline,HI,TRUE,>23,French Frigate Shoals,"NWHI, FFS",M,AD,2,3,2017
+21-0103,7058,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,28,2018
+21-0104,7059,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,16,2021
+21-0105,7060,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,11,30,2017
+21-0110,7065,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,31,2018
+21-0111,7066,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,5,2018
+21-0112,7067,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,5,2018
+21-0161,7068,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,25,2018
+21-0162,7069,BFAL,Hawaii Deep-set Longline,HI,TRUE,>6,Midway Atoll,"NWHI, Midway",M,AD,3,7,2020
+21-0163,7070,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,11,2020
+21-0164,7071,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,6,5,2020
+21-0165,7072,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,11,30,2020
+21-0166,7073,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,2,2018
+21-0167,7074,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,6,5,2020
+21-0168,7075,BFAL,Hawaii Deep-set Longline,HI,TRUE,8,Oahu,Oahu,F,AD,3,6,2020
+21-0173,7080,BFAL,Hawaii Deep-set Longline,HI,TRUE,11,"Laysan Island, Honolulu County, Hawaii","NWHI, Laysan",M,AD,6,7,2018
+21-0174,7081,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,2,2020
+21-0181,7088,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,25,2020
+21-0182,7089,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,14,2018
+21-0183,7090,BFAL,Hawaii Deep-set Longline,HI,TRUE,14,French Frigate Shoals,"NWHI, FFS",F,AD,3,16,2020
+21-0184,7091,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,15,2020
+21-0185,7092,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,29,2020
+21-0186,7093,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,7,7,2018
+21-0187,7094,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,24,2019
+21-0188,7095,BFAL,Hawaii Deep-set Longline,HI,TRUE,19,French Frigate Shoals,"NWHI, FFS",M,AD,3,18,2019
+21-0189,7096,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,21,2019
+21-0190,7097,BFAL,Hawaii Deep-set Longline,HI,TRUE,10,French Frigate Shoals,"NWHI, FFS",M,AD,2,27,2020
+21-0191,7098,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,5,16,2018
+21-0192,7099,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,15,2018
+21-0193,7100,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,5,28,2018
+21-0194,7101,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,19,2020
+21-0195,7102,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,28,2020
+21-0243,7118,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,3,13,2019
+21-0247,7122,BFAL,Hawaii Deep-set Longline,HI,TRUE,17,French Frigate Shoals,"NWHI, FFS",M,AD,3,20,2019
+21-0248,7123,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,22,2020
+21-0249,7124,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,26,2020
+21-0250,7125,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,17,2020
+21-0251,7126,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,IM,6,24,2019
+21-0253,7128,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,6,16,2019
+21-0273,7148,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,NA,6,23,2019
+21-0274,7149,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,NA,6,20,2019
+21-0275,7150,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,AD,6,20,2019
+21-0276,7151,BFAL,At-Sea Hake Trawl,WA,TRUE,NA,NA,NA,F,AD,6,26,2019
+21-0277,7152,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,25,2020
+21-0278,7153,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,24,2020
+21-0279,7154,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,8,25,2020
+21-0280,7155,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,F,AD,7,16,2020
+21-0281,7156,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,6,20,2019
+21-0282,7157,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,6,26,2019
+21-0283,7158,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,25,2020
+21-0284,7159,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,31,2020
+21-0285,7160,BFAL,Alaska Groundfish fisheries,AK,TRUE,NA,NA,NA,M,AD,8,22,2020
+21-0286,7161,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,6,22,2019
+21-0288,7163,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,6,24,2019
+21-0289,7164,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,6,21,2019
+21-0290,7165,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,AD,6,28,2019
+21-0314,7189,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,8,2014
+21-0315,7190,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,7,8,2014
+21-0316,7191,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,23,2018
+21-0317,7192,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,5,19,2018
+21-0318,7193,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,5,15,2018
+21-0319,7194,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,NA,5,11,2018
+22-0100,7340,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,17,2021
+22-0101,7341,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,17,2021
+22-0106,7346,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,17,2021
+22-0107,7347,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,24,2021
+22-0128,7355,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,AD,6,17,2020
+22-0129,7356,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,M,AD,5,23,2020
+22-0130,7357,BFAL,At-Sea Hake Trawl,WA,TRUE,NA,NA,NA,F,AD,5,25,2021
+22-0131,7358,BFAL,At-Sea Hake Trawl,WA,FALSE,NA,NA,NA,F,AD,9,26,2019
+22-0305,7394,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,12,2021
+22-0311,7400,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,6,29,2021
+22-0313,7402,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,8,11,2021
+22-0314,7403,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,NA,NA,2022
+22-0326,7415,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,4,20,2021
+22-0327,7416,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",F,AD,3,3,2022
+22-0328,7417,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,11,28,2021
+22-0329,7418,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,13,2022
+22-0330,7419,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,2,24,2022
+22-0334,7423,BFAL,Hawaii Shallow-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,18,2022
+22-0345,7425,BFAL,Alaska Groundfish fisheries,AK,FALSE,NA,NA,NA,M,AD,10,31,2016
+22-0359,7438,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,12,9,2019
+22-0361,7440,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,6,2019
+22-0362,7441,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,14,2019
+22-0363,7442,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,IM,12,12,2019
+22-0366,7445,BFAL,Hawaii Deep-set Longline,HI,TRUE,15,French Frigate Shoals,"NWHI, FFS",M,AD,2,26,2020
+22-0367,7446,BFAL,Hawaii Deep-set Longline,HI,TRUE,18,French Frigate Shoals,"NWHI, FFS",M,AD,2,8,2020
+22-0368,7447,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,18,2020
+22-0370,7449,BFAL,Hawaii Deep-set Longline,HI,TRUE,20,French Frigate Shoals,"NWHI, FFS",F,AD,1,23,2020
+22-0371,7450,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,3,2020
+22-0386,7451,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,AD,1,20,2020
+22-0388,7453,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,8,8,2019
+22-0389,7454,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,M,IM,12,2,2019
+22-0390,7455,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,18,2020
+22-0392,7457,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,18,2020
+22-0393,7458,BFAL,Hawaii Deep-set Longline,HI,TRUE,12,French Frigate Shoals,"NWHI, FFS",M,AD,1,30,2020
+22-0394,7459,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,11,30,2019
+22-0399,7464,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,14,2020
+22-0426,7475,BFAL,Hawaii Deep-set Longline,HI,TRUE,1,Oahu,Oahu,M,AD,2,6,2020
+22-0427,7476,BFAL,Hawaii Deep-set Longline,HI,TRUE,18,French Frigate Shoals,"NWHI, FFS",F,AD,2,6,2020
+22-0429,7478,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,11,28,2019
+22-0431,7480,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,12,2019
+22-0432,7481,BFAL,Hawaii Deep-set Longline,HI,TRUE,10,French Frigate Shoals,"NWHI, FFS",F,AD,2,6,2020
+22-0433,7482,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,19,2020
+22-0437,7486,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,12,12,2018
+22-0438,7487,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,2,5,2020
+22-0440,7489,BFAL,Hawaii Deep-set Longline,HI,TRUE,22,French Frigate Shoals,"NWHI, FFS",F,AD,2,9,2020
+22-0441,7490,BFAL,Hawaii Deep-set Longline,HI,FALSE,NA,NA,NA,F,AD,1,1,2020

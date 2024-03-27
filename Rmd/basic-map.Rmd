@@ -1,0 +1,132 @@
+---
+title: "basic-map"
+author: "Diana Baetscher"
+date: "2023-03-09"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+
+
+## Map of BFAL colony locations in this study
+
+```{r load-packages}
+library(tidyverse)
+library(dplyr)
+library(adehabitatHR)
+library(ggplot2)
+library(magrittr)
+library(sp)
+library(raster)
+library(marmap)
+library(oce)
+library(ocedata)
+
+```
+
+
+### bathymetry
+
+
+Add bathymetric map
+```{r}
+# antimeridian region 
+col_area <- getNOAA.bathy(-160, 140, 20, 40, resolution = 1,
+antimeridian = T)
+
+# Make it a raster
+bathy <- as.raster(col_area)
+
+# Create a xyz table for ggplot
+bath<-fortify(col_area)
+
+```
+
+
+this mapping from: https://hansenjohnson.org/post/bathymetric-maps-in-r/
+```{r load-ocea-data}
+# BFAL colony locations
+latlon <- read_csv("../data/latlon_df.csv")
+
+data("coastlineWorldFine")
+
+# convert bathymetry
+bathyLon = as.numeric(rownames(col_area))
+bathyLat = as.numeric(colnames(col_area))
+bathyZ = as.numeric(col_area)
+dim(bathyZ) = dim(col_area)
+
+
+# define plotting region
+mlon = mean(latlon$lon)
+mlat = mean(latlon$lat)
+span = 10000
+```
+
+```{r specify-colony-spatial-info}
+latlon$pop <- as.factor(latlon$pop)
+
+
+mypalette <- c("dodgerblue", "#006d2c", "skyblue", "darkslateblue", "#74c476",  # Hawaii - greens, blues
+               "tomato", "#31a354") # Japan - red
+               
+names(mypalette) <- levels(factor(c(levels(latlon$pop)))) # Extract all levels of both data
+
+```
+
+
+```{r load-coastline-data}
+data("coastlineWorld")
+```
+
+
+
+```{r blank-map}
+## Save it to a function to make it easy to re-run
+mp <- function() {
+    mapPlot(coastlineWorldFine, 
+            projection = "+proj=aea +lat_1=30 +lat_2=70 +lat_0=52 +lon_0=-170 +x_0=0 +y_0=0 +ellps=GRS80 +datum=NAD83 +units=m +no_defs",
+            longitudelim = c(130, 205),
+            latitudelim = c(20, 40), col='lightgray',
+            border = "lightgray",
+            axes = T,
+            grid = T)
+}
+
+```
+
+The colony locations are a pain and overlapping...
+
+```{r}
+for_plotting <- latlon %>%
+  mutate(plat = ifelse(lat >28.3, lat+2, lat)) %>%
+  mutate(plat = ifelse(lat < 23.869, lat-2.5, plat))
+
+```
+
+
+```{r}
+mypalette <- c("dodgerblue",  "#006d2c", "#74c476", "skyblue", "darkslateblue",   # Hawaii - greens, blues
+               "#31a354",  "tomato") # Japan - red
+              
+
+#pdf("pdf_outputs/BFAL_breeding_colony_locs_grayV2.pdf", width = 5.5, height = 4.5)
+
+mp()
+#mapImage(topoWorld, col=oceColorsGebco, breaks=seq(-4000, 0, 500))
+mapPolygon(coastlineWorldFine, col='grey')
+mapGrid()
+# add colony locations
+mapPoints(longitude = latlon$lon, latitude = latlon$lat, pch = 16, col = mypalette, cex = 1.2, lwd = 2)
+
+## add colony name on the map
+mapText(longitude = for_plotting$lon-1.5,
+          latitude = for_plotting$plat,
+        labels = for_plotting$pop,
+        cex = 0.4)
+
+#dev.off()
+```
