@@ -782,10 +782,11 @@ bycatch_diff$colony <- factor(bycatch_diff$colony, levels = c("French Frigate Sh
 
 bycatchB <- bycatch_diff %>%
   filter(colony != "Other") %>% # this is misrepresented since the unassigned is also probably part of this.
-  ggplot(aes(x = fishery, y = perc_diff, fill = colony)) +
+  ggplot(aes(x = colony, y = perc_diff, fill = colony)) +
   #geom_point(size = 3) +
   geom_bar(stat = "identity", position = position_dodge2(preserve = "single"), width = 1) +
   geom_hline(yintercept = 0, col = "black", linetype = "dotted") +
+  facet_grid(cols = vars(fishery), space = "free_x") +
    theme_bw() +
   labs(
     color = "Bycatch \ncolony of origin",
@@ -796,18 +797,25 @@ bycatchB <- bycatch_diff %>%
   scale_fill_manual(values = c("#74c476", "dodgerblue", "#006d2c", "darkslateblue", "tomato", "skyblue")) +
   theme(
     axis.title.x = element_text(margin = margin(t=10)),
-      axis.title.y = element_text(margin = margin(r = 10))
+      axis.title.y = element_text(margin = margin(r = 10)),
+          #axis.text.x = element_text(angle = 90, hjust = 0.95, vjust = 0.5)
+    axis.text.x = element_blank(),
+    axis.ticks.x = element_blank(),
+    #panel.grid.major = element_blank(),
+    panel.grid.minor = element_blank(),
+    panel.grid.major.x = element_blank()
 
   ) +
-  scale_y_continuous(limits = c(-50, 100), labels = c("-50%", "0%", "50%", "100%"))
+  scale_y_continuous(limits = c(-50, 100), labels = c("-50%", "0%", "50%", "100%"), breaks = c(-50, 0, 50, 100), expand = c(0,0))
 
+bycatchB
 #ggsave("pdf_outputs/colony_bycatch_diff_plot.png", width = 6, height = 3.5)
 ```
 
 ```{r combine-bycatch-plots}
 bycatchA + bycatchB + plot_annotation(tag_levels = "A") + plot_layout(ncol = 1)
 
-#ggsave("pdf_outputs/colony_bycatch_diff_plot_2panel.png", width = 7, height = 6.5)
+ggsave("pdf_outputs/Revised_colony_bycatch_diff_plot_2panel.png", width = 7, height = 6.5)
 ```
 
 
